@@ -1,4 +1,4 @@
 FROM alpine:latest
 WORKDIR /app
-COPY hw.sh /
-CMD ["/hw.sh"]
+COPY hw.sh app/
+CMD ["/app/hw.sh"]
